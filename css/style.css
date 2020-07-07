@@ -1,0 +1,93 @@
+    	nav{
+    		background-color: white;
+    	}
+      .navbar-nav .nav-item .nav-link
+      {
+        color:black;
+
+    }
+      .navbar-nav .nav-item.active .nav-link, 
+      .navbar-nav .nav-item:hover .nav-link{
+        color: #ea2313;
+      }
+
+      .btn{
+      	background-color: #ea2313;
+      	border-color: #ea2313;
+      	border-radius: 30px;
+      	padding-top: 12px;
+      	padding-right: 30px;
+      	padding-left: 30px;
+      	padding-bottom: 12px;
+      	color: #fff;
+
+      }
+      
+      .carousel-caption {
+	position: absolute;
+	top: 28%;
+}
+.carousel-caption h5 {
+	font-size: 78px;
+}
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+.elementor-button-text {
+	    background-color: #ea2313;
+      	border-color: #ea2313;
+      	border-radius: 30px;
+      	padding-top: 12px;
+      	padding-right: 30px;
+      	padding-left: 30px;
+      	padding-bottom: 12px;
+      	color: #fff;
+}
+body{
+	font-family: Galada;
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Raleway',sans-serif;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
